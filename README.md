@@ -4,7 +4,7 @@ Peltier (TEC) controller with fine termperature control and slow temperature ram
 ## Notes about software
 - Code tested using the Arduino IDE 1.6.9 - https://www.arduino.cc/en/Main/Software
 - Code written for Arduino Nano v3 and uploaded using AVRISP mkII programmer, part of the Arduino IDE
-- The Arduino Nano's ADC circuitry are only 10 bit, to achieve a temperature resolution of +/- 0.1 C, the ADC's are oversampled to improve their theoretical limit to 13 bit.
+- The Arduino Nano's ADC circuitry is only 10 bit, to achieve a temperature resolution of +/- 0.1 C, the ADC's are oversampled to improve their theoretical limit to 13 bit.
 
 ## Hardware setup
 - Arduino nano v3
